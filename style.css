@@ -244,6 +244,12 @@ h1{
     padding:1rem 0;
     line-height: 1.8;
 }
+.about .row .content ul{
+    font-size: 1.6rem;
+    color:var(--main-color);
+    padding:1rem 1;
+    line-height: 1.8;
+}
 
 /***************  menu section **********/
 .menu .box-container{
@@ -404,6 +410,7 @@ h1{
     flex:1 1 45rem;
     padding:5rem 2rem;
     text-align: center;
+    
 }
 
 .contact .row form h3{
@@ -447,7 +454,7 @@ h1{
     padding:1rem 0;
 }
 
-.footer .share a{
+.footer .share div{
     height: 5rem;
     width: 5rem;
     line-height: 5rem;
@@ -458,7 +465,7 @@ h1{
     border-radius: 50%;
 }
 
-.footer .share a:hover{
+.footer .share div:hover{
     background-color: var(--main-color);
 }
 
@@ -470,14 +477,14 @@ h1{
     gap:1rem;
 }
 
-.footer .links a{
+.footer .links div{
     padding:.7rem 2rem;
     color:#fff;
     border:var(--border);
     font-size: 2rem;
 }
 
-.footer .links a:hover{
+.footer .links div:hover{
     background:var(--main-color);
 }
 
